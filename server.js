@@ -1,12 +1,16 @@
 const express = require("express");
-const dotenv = require("dotenv");
+require("dotenv").config();
 const app = express();
 const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 
+const productRoutes = require("./routes/products.js");
+app.use("/products", productRoutes);
+
+app.use("/products", express.static("./public"));
+
 // Load the variables from .env file
-dotenv.config();
 const PORT = process.env.SERVER_PORT || 5050;
 
 app.listen(PORT, () => {
