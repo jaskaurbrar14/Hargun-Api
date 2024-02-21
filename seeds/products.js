@@ -263,7 +263,7 @@ exports.seed = async function (knex) {
         "http://localhost:8080/products/SnakeLayeredChains/3.webp",
         "http://localhost:8080/products/SnakeLayeredChains/4.webp",
       ]),
-      category: "Chains",
+      category: "Chain",
       description:
         "This set of 3 necklaces is the easiest way to achieve your layering goals! With one stone necklace and two textured basic necklaces, this set will give you a full neck without looking crowded or messy.",
       price: 45,
