@@ -3,9 +3,41 @@ const knex = require("knex")(require("../knexfile"));
 const index = async (_req, res) => {
   try {
     const data = await knex("products");
-    res.status(200).json(data);
+    allProducts = data.map((product) => {
+      return {
+        id: product.id,
+        title: product.title,
+        price: product.price,
+        photo: JSON.parse(product.photo),
+      };
+    });
+    res.status(200).json(allProducts);
   } catch (err) {
     res.status(400).send(`Error retrieving products: ${err}`);
+  }
+};
+const trending = async (_req, res) => {
+  try {
+    const productData = await knex("products");
+    console.log(productData);
+    const filteredData = productData.filter(
+      (data) => JSON.parse(data.trending) === 1
+    );
+    console.log(filteredData);
+
+    trendingProducts = filteredData.map((product) => {
+      return {
+        id: product.id,
+        title: product.title,
+        price: product.price,
+        photo: JSON.parse(product.photo),
+      };
+    });
+    console.log(trendingProducts);
+
+    res.status(200).json(trendingProducts);
+  } catch (err) {
+    res.status(400).send(`Error retrieving trending products: ${err}`);
   }
 };
 const getProductById = async (req, res) => {
@@ -21,8 +53,6 @@ const getProductById = async (req, res) => {
         message: `Product with ID ${product_id} not found`,
       });
     }
-
-    // const productData = productsFound[0];
     res.json(productsFound);
   } catch (error) {
     res.status(500).json({
@@ -33,5 +63,6 @@ const getProductById = async (req, res) => {
 
 module.exports = {
   index,
+  trending,
   getProductById,
 };
