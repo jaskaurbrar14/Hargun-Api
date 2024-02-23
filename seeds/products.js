@@ -20,6 +20,7 @@ exports.seed = async function (knex) {
         "Elevate your style with our Auryn Bangles Set of 3. Crafted with exquisite detail and luxurious materials, these bangles exude elegance and sophistication. Slip them on for an instant touch of glamour and elevate any outfit. Add a touch of art and exclusivity to your wardrobe.",
       price: 35,
       collection: "Maxima",
+      trending: "true",
     },
     {
       id: 2,
@@ -34,6 +35,7 @@ exports.seed = async function (knex) {
         "Perfect to pair with the bay hoops to make a dainty set of sophistication.",
       price: 25,
       collection: "Anaash",
+      trending: "false",
     },
     {
       id: 3,
@@ -49,6 +51,7 @@ exports.seed = async function (knex) {
         "Pearls are back with a bang! Style your ensemble with our versatile choker, evincing charm and panache.",
       price: 99,
       collection: "Anaash",
+      trending: "false",
     },
     {
       id: 4,
@@ -62,6 +65,7 @@ exports.seed = async function (knex) {
         "The Charcoal Black Eleanor Danglers are intricately handcrafted pieces of art that are the quintessence of perfection. These crystal-studded shoulder dusters sophisticatedly sway your iconic charm.",
       price: 35,
       collection: "Maxima",
+      trending: "true",
     },
     {
       id: 5,
@@ -77,6 +81,7 @@ exports.seed = async function (knex) {
         " The Eleanor Danglers in Lilac is an intricately handcrafted piece of art that is the quintessence of perfection. These crystal-studded shoulder dusters sophisticatedly sway your iconic charm.",
       price: 35,
       collection: "Maxima",
+      trending: "true",
     },
     {
       id: 6,
@@ -92,6 +97,7 @@ exports.seed = async function (knex) {
         " Indulge in the colourful and playful charm of our Froot Loops Earrings in Gold. These delightful earrings feature the iconic cereal loops made of luxurious gold, adding a touch of whimsy and sophistication to any outfit. Embrace your inner child while looking effortlessly chic in these one-of-a-kind earrings.",
       price: 45,
       collection: "Maxima",
+      trending: "false",
     },
     {
       id: 7,
@@ -107,6 +113,7 @@ exports.seed = async function (knex) {
         "Here to win your hearts with this Infinity Nano Bag, a sophisticated and stylish bag designed for luxury. Crafted in the finest of materials, it is adorned with glimmering details and the beautiful handle finishes off the elegant design. This bag is the perfect addition to add some Amama sparkle to your life and your outfits!",
       price: 100,
       collection: "Maxima",
+      trending: "true",
     },
     {
       id: 8,
@@ -122,6 +129,7 @@ exports.seed = async function (knex) {
         "Here to win your hearts with this Infinity Nano Bag, a sophisticated and stylish bag designed for luxury. Crafted in the finest of materials, it is adorned with glimmering details and the beautiful handle finishes off the elegant design. This bag is the perfect addition to add some Amama sparkle to your life and your outfits!",
       price: 100,
       collection: "Maxima",
+      trending: "true",
     },
     {
       id: 9,
@@ -137,6 +145,7 @@ exports.seed = async function (knex) {
         "Indulge in luxury with the Maxima Choker. Crafted with intricate details and exquisite materials, this statement piece is designed to elevate any look. Its striking design and impeccable craftsmanship make it a must-have for those with a taste for the finer things in life. Complete your ensemble with this exclusive choker and exude sophistication and elegance.",
       price: 55,
       collection: "Maxima",
+      trending: "false",
     },
     {
       id: 10,
@@ -152,6 +161,7 @@ exports.seed = async function (knex) {
         "Introducing our Maxima Front Back Earrings - the epitome of elegance and luxury. These stunning earrings offer a versatile design with front and back options, allowing you to effortlessly switch up your look. Handcrafted with premium materials, these earrings are the perfect accessory for any occasion.",
       price: 35,
       collection: "Maxima",
+      trending: "false",
     },
     {
       id: 11,
@@ -167,6 +177,7 @@ exports.seed = async function (knex) {
         "Indulge in the luxurious and exclusive world of Maxima Love Studs. Crafted with precision and elegance, these studs offer a touch of sophistication to any outfit. Elevate your style with the intricate design and superior craftsmanship of Maxima.",
       price: 35,
       collection: "Maxima",
+      trending: "false",
     },
     {
       id: 12,
@@ -181,6 +192,7 @@ exports.seed = async function (knex) {
         "The Mini Meteor Earrings in Champagne Gold are handcrafted with gleaming perfection, exuberating elegant urbanity. The versatility of these earrings heavenly treasures the dazzling look blended with the two-way styling of studs and drop earrings. Embrace the glam and style them gracefully.",
       price: 35,
       collection: "Anaash",
+      trending: "true",
     },
     {
       id: 13,
@@ -196,6 +208,7 @@ exports.seed = async function (knex) {
         "Elegantly handcrafted and dressed in 22kt gold plating, The Mini Eleanor Studs features a fancy-cut heart entirely studded with Crystals in a Hot Pink shade. The composition of the piece makes it feather-light yet extravagant in its own poise. This pair of earrings is your perfect cocktail partner. Wear it and be the glam of the events!",
       price: 35,
       collection: "Anaash",
+      trending: "true",
     },
     {
       id: 14,
@@ -211,6 +224,7 @@ exports.seed = async function (knex) {
         "Elegantly handcrafted and dressed in 22kt gold plating, The Mini Eleanor Studs features a fancy-cut heart entirely studded with Crystals in a Hot Pink shade. The composition of the piece makes it feather-light yet extravagant in its own poise. This pair of earrings is your perfect cocktail partner. Wear it and be the glam of the events!",
       price: 35,
       collection: "Anaash",
+      trending: "false",
     },
     {
       id: 15,
@@ -225,6 +239,7 @@ exports.seed = async function (knex) {
         "Our Nova hoops are an alluring silhouette inspired by natural folds with a pearl strung to it. Handcrafted with 22kt gold plated with a specially customized metal alloy.",
       price: 35,
       collection: "Anaash",
+      trending: "true",
     },
     {
       id: 16,
@@ -238,6 +253,7 @@ exports.seed = async function (knex) {
         "Indulge in luxury with our Andi Pearl Studs. These elegant studs are perfect for daily wear, adding a touch of sophistication to any outfit. Made with lustrous pearls, they are a timeless addition to your jewellery collection. Elevate your style and feel exclusive with the Andi Pearl Studs.",
       price: 35,
       collection: "Anaash",
+      trending: "false",
     },
     {
       id: 17,
@@ -253,6 +269,7 @@ exports.seed = async function (knex) {
         "Made from luxurious silk, our Scrunchie Handcuff is the perfect combination of fashion and function. Not only does it keep your hair in place, but it also doubles as a subtle and stylish handcuff. Perfect for the sophisticated and stylish individual who values both beauty and practicality.",
       price: 45,
       collection: "Maxima",
+      trending: "true",
     },
     {
       id: 18,
@@ -268,6 +285,7 @@ exports.seed = async function (knex) {
         "This set of 3 necklaces is the easiest way to achieve your layering goals! With one stone necklace and two textured basic necklaces, this set will give you a full neck without looking crowded or messy.",
       price: 45,
       collection: "Anaash",
+      trending: "false",
     },
     {
       id: 19,
@@ -283,6 +301,7 @@ exports.seed = async function (knex) {
         "Verona loop earrings are meticulously handcrafted with 22kt gold plating that feature intertwined crystal studded rings. These earrings capture the essence of a harmonious free spirit, this piece of jewellery takes the beauty and rawness of hardware.",
       price: 35,
       collection: "Anaash",
+      trending: "false",
     },
   ]);
 };
