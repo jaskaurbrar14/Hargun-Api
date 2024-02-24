@@ -6,7 +6,7 @@ const index = async (_req, res) => {
     allProducts = data.map((product) => {
       return {
         id: product.id,
-        title: product.title,
+        title: product.product_name,
         price: product.price,
         photo: JSON.parse(product.photo),
       };
@@ -19,22 +19,18 @@ const index = async (_req, res) => {
 const trending = async (_req, res) => {
   try {
     const productData = await knex("products");
-    console.log(productData);
     const filteredData = productData.filter(
       (data) => JSON.parse(data.trending) === 1
     );
-    console.log(filteredData);
 
     trendingProducts = filteredData.map((product) => {
       return {
         id: product.id,
-        title: product.title,
+        title: product.product_name,
         price: product.price,
         photo: JSON.parse(product.photo),
       };
     });
-    console.log(trendingProducts);
-
     res.status(200).json(trendingProducts);
   } catch (err) {
     res.status(400).send(`Error retrieving trending products: ${err}`);

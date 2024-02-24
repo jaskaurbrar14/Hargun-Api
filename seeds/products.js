@@ -8,18 +8,17 @@ exports.seed = async function (knex) {
   await knex("products").insert([
     {
       id: 1,
-      product_name: "Auryn Bangles",
+      product_name: "Nova Hoops",
       photo: JSON.stringify([
-        "http://localhost:8080/products/AurynBangles/1.jpg",
-        "http://localhost:8080/products/AurynBangles/2.jpg",
-        "http://localhost:8080/products/AurynBangles/3.jpg",
-        "http://localhost:8080/products/AurynBangles/4.jpg",
+        "http://localhost:8080/products/NovaHoops/1.webp",
+        "http://localhost:8080/products/NovaHoops/2.webp",
+        "http://localhost:8080/products/NovaHoops/3.webp",
       ]),
-      category: "Bangles",
+      category: "Hoops",
       description:
-        "Elevate your style with our Auryn Bangles Set of 3. Crafted with exquisite detail and luxurious materials, these bangles exude elegance and sophistication. Slip them on for an instant touch of glamour and elevate any outfit. Add a touch of art and exclusivity to your wardrobe.",
+        "Our Nova hoops are an alluring silhouette inspired by natural folds with a pearl strung to it. Handcrafted with 22kt gold plated with a specially customized metal alloy.",
       price: 35,
-      collection: "Maxima",
+      collection: "Anaash",
       trending: true,
     },
     {
@@ -228,19 +227,21 @@ exports.seed = async function (knex) {
     },
     {
       id: 15,
-      product_name: "Nova Hoops",
+      product_name: "Auryn Bangles",
       photo: JSON.stringify([
-        "http://localhost:8080/products/NovaHoops/1.webp",
-        "http://localhost:8080/products/NovaHoops/2.webp",
-        "http://localhost:8080/products/NovaHoops/3.webp",
+        "http://localhost:8080/products/AurynBangles/1.jpg",
+        "http://localhost:8080/products/AurynBangles/2.jpg",
+        "http://localhost:8080/products/AurynBangles/3.jpg",
+        "http://localhost:8080/products/AurynBangles/4.jpg",
       ]),
-      category: "Hoops",
+      category: "Bangles",
       description:
-        "Our Nova hoops are an alluring silhouette inspired by natural folds with a pearl strung to it. Handcrafted with 22kt gold plated with a specially customized metal alloy.",
+        "Elevate your style with our Auryn Bangles Set of 3. Crafted with exquisite detail and luxurious materials, these bangles exude elegance and sophistication. Slip them on for an instant touch of glamour and elevate any outfit. Add a touch of art and exclusivity to your wardrobe.",
       price: 35,
-      collection: "Anaash",
+      collection: "Maxima",
       trending: true,
     },
+
     {
       id: 16,
       product_name: "Pearl Studs",
