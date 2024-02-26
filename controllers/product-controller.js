@@ -48,6 +48,7 @@ const getProductById = async (req, res) => {
         message: `Product with ID ${product_id} not found`,
       });
     }
+
     const selectedProduct = {
       id: productFound.id,
       title: productFound.product_name,
