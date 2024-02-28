@@ -20,6 +20,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Anaash",
       trending: true,
+      quantity: 0,
     },
     {
       id: 2,
@@ -35,6 +36,7 @@ exports.seed = async function (knex) {
       price: 25,
       collection: "Anaash",
       trending: false,
+      quantity: 0,
     },
     {
       id: 3,
@@ -51,6 +53,7 @@ exports.seed = async function (knex) {
       price: 99,
       collection: "Anaash",
       trending: false,
+      quantity: 0,
     },
     {
       id: 4,
@@ -65,6 +68,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Maxima",
       trending: true,
+      quantity: 0,
     },
     {
       id: 5,
@@ -81,6 +85,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Maxima",
       trending: true,
+      quantity: 0,
     },
     {
       id: 6,
@@ -97,6 +102,7 @@ exports.seed = async function (knex) {
       price: 45,
       collection: "Maxima",
       trending: false,
+      quantity: 0,
     },
     {
       id: 7,
@@ -113,6 +119,7 @@ exports.seed = async function (knex) {
       price: 100,
       collection: "Maxima",
       trending: true,
+      quantity: 0,
     },
     {
       id: 8,
@@ -129,6 +136,7 @@ exports.seed = async function (knex) {
       price: 100,
       collection: "Maxima",
       trending: true,
+      quantity: 0,
     },
     {
       id: 9,
@@ -145,6 +153,7 @@ exports.seed = async function (knex) {
       price: 55,
       collection: "Maxima",
       trending: false,
+      quantity: 0,
     },
     {
       id: 10,
@@ -161,6 +170,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Maxima",
       trending: false,
+      quantity: 0,
     },
     {
       id: 11,
@@ -177,6 +187,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Maxima",
       trending: false,
+      quantity: 0,
     },
     {
       id: 12,
@@ -192,6 +203,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Anaash",
       trending: true,
+      quantity: 0,
     },
     {
       id: 13,
@@ -208,6 +220,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Anaash",
       trending: true,
+      quantity: 0,
     },
     {
       id: 14,
@@ -224,6 +237,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Anaash",
       trending: false,
+      quantity: 0,
     },
     {
       id: 15,
@@ -240,6 +254,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Maxima",
       trending: true,
+      quantity: 0,
     },
 
     {
@@ -255,6 +270,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Anaash",
       trending: false,
+      quantity: 0,
     },
     {
       id: 17,
@@ -271,6 +287,7 @@ exports.seed = async function (knex) {
       price: 45,
       collection: "Maxima",
       trending: true,
+      quantity: 0,
     },
     {
       id: 18,
@@ -287,6 +304,7 @@ exports.seed = async function (knex) {
       price: 45,
       collection: "Anaash",
       trending: false,
+      quantity: 0,
     },
     {
       id: 19,
@@ -303,6 +321,7 @@ exports.seed = async function (knex) {
       price: 35,
       collection: "Anaash",
       trending: false,
+      quantity: 0,
     },
   ]);
 };

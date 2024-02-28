@@ -12,6 +12,7 @@ exports.up = function (knex) {
     table.decimal("price", 10, 2).notNullable();
     table.string("collection").notNullable();
     table.string("trending").notNullable();
+    table.integer("price").defaultTo(0).unsigned().notNullable();
   });
 };
 
